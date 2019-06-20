@@ -11,6 +11,8 @@
     <navType>Standard</navType>
     <tabs>standard-home</tabs>
     <tabs>Training_Plan__c</tabs>
+    <tabs>Library__c</tabs>
+    <tabs>Training_Level__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>TMS_UtilityBar</utilityBar>
 </CustomApplication>

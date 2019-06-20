@@ -8,9 +8,48 @@
     <custom>false</custom>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Library__c.Library_Name__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Library__c.Stage__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Library__c.Training_Level__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Training_Level__c.Number_Of_Days__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Training_Plan_Library__c.Library__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Training_Plan_Library__c.Training_Plan__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Training_Plan__c.Training_Plan_Type__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <layoutAssignments>
+        <layout>Library__c-Library Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Training_Level__c-Training Level Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Training_Plan_Library__c-Training Plan Library Layout</layout>
+    </layoutAssignments>
     <layoutAssignments>
         <layout>Training_Plan__c-Training Plan Layout</layout>
     </layoutAssignments>
@@ -20,9 +59,44 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
+        <object>Library__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Training_Level__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Training_Plan_Library__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
         <object>Training_Plan__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
+    <tabVisibilities>
+        <tab>Library__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Training_Level__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
     <tabVisibilities>
         <tab>Training_Plan__c</tab>
         <visibility>DefaultOn</visibility>
