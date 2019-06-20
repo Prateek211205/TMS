@@ -8,6 +8,7 @@
     <custom>false</custom>
     <fieldPermissions>
         <editable>true</editable>
+<<<<<<< HEAD
         <field>Library__c.Library_Name__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -38,10 +39,13 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+=======
+>>>>>>> 82d15c40f174e777b8296c8d3ef822e766ea2a8c
         <field>Training_Plan__c.Training_Plan_Type__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
+<<<<<<< HEAD
         <layout>Library__c-Library Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -51,6 +55,8 @@
         <layout>Training_Plan_Library__c-Training Plan Library Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+=======
+>>>>>>> 82d15c40f174e777b8296c8d3ef822e766ea2a8c
         <layout>Training_Plan__c-Training Plan Layout</layout>
     </layoutAssignments>
     <objectPermissions>
@@ -59,6 +65,7 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
+<<<<<<< HEAD
         <object>Library__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
@@ -86,10 +93,13 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
+=======
+>>>>>>> 82d15c40f174e777b8296c8d3ef822e766ea2a8c
         <object>Training_Plan__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <tabVisibilities>
+<<<<<<< HEAD
         <tab>Library__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
@@ -98,6 +108,8 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
+=======
+>>>>>>> 82d15c40f174e777b8296c8d3ef822e766ea2a8c
         <tab>Training_Plan__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
